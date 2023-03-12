@@ -1,0 +1,17 @@
+{
+  "name": "fastify-basic-file-upload",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "author": "zukrein#1337",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@fastify/multipart": "^7.4.2",
+    "@fastify/static": "^6.9.0",
+    "fastify": "^4.14.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
